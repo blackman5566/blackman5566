@@ -1,71 +1,77 @@
-# Allen — System Design Engineer
+# 嗨，我是 Allen
 
-我現在寫 code 的方式，跟以前不太一樣了。
+歡迎來到我的 GitHub。
 
-我不只是把功能做出來，
-而是會多往上一層思考：
-
-這個系統是怎麼運作的？  
-資料應該怎麼流？  
-在變動下能不能維持穩定？
-
-UI 對我來說，只是 state 的投影。
+這裡放的不是只有專案，
+也包含我這段時間在想的事情。
 
 
 ---
 
-## About Me
+## 我是誰
 
-2 個孩子的爸爸。
+我是一個做 App 的工程師。
 
-平常除了寫程式，也會觀察生活中很多「很浪費時間的流程」，
-然後試著把它們變成工具。
+但比起把功能做出來，
+我更在意的是：
+
+這個系統到底是怎麼運作的，
+資料是怎麼流動的，
+還有在變動的情況下，它還穩不穩。
+
+UI 對我來說，比較像是結果，
+不是核心。
+
+
+---
+
+## 我在做的事
+
+我最近在做的事情，大多跟這些有關：
+
+- real-time 資料更新
+- 狀態管理（讓資料跟 UI 對得起來）
+- async flow（避免系統亂掉）
+- 跨框架設計（SwiftUI / UIKit / Flutter）
+
+還有一些 side project，
+通常都是從生活裡的小問題開始的。
 
 像是：
 
-- 求職表單自動填寫（form-pilot）
-- AI workflow 自動化
-- 把日常操作變成可以重複使用的系統
+「為什麼這件事要一直重複做？」  
+「這個流程不能更簡單嗎？」
 
-我做的東西不一定很大，
-但希望是「真的有人會一直用的」。
+後來就會變成一個工具。
 
 
 ---
 
-## What I Do
+## 我相信的幾件事
 
-我專注在系統設計與資料流。
-
-特別是在：
-
-- 高頻資料更新（real-time）
-- 狀態一致性（Single Source of Truth）
-- async flow control
-- 跨框架架構（SwiftUI / UIKit / Flutter）
-
-讓系統在變動下仍然可預測、可維護。
+- 系統如果一開始沒想清楚，後面一定會還
+- UI 只是表面，狀態才是本質
+- 複雜的問題，其實可以被拆得很乾淨
+- 好的工具，不一定要很大，但要真的會用
 
 
 ---
 
-## Selected Work
+## 一點生活
 
-### Security Center
-Security is not a screen — it's a system.  
-將密碼、生物識別與鎖定機制模組化，讓系統可持續演進。
+我是兩個孩子的爸爸。
 
-👉 https://github.com/blackman5566/SecurityCenter-SystemDesign
+寫程式之外，其實也就是在過生活。
 
----
+很多我做的東西，
+都是從「覺得哪裡不順」開始的。
 
-### Real-time Metrics System
-處理高頻資料更新下的狀態一致性問題，  
-透過 diffable + 單一資料來源，讓 UI 可預測。
 
 ---
 
-### AI Workflow (form-pilot)
-把重複填寫表單這種小問題，變成可以自動化的流程。
+## 找到我
 
-👉 https://github.com/blackman5566/form-pilot
+如果你想多了解我，或是剛好有相關的題目想聊：
+
+- LinkedIn: https://www.linkedin.com/in/allen-hsu-54180970/
+- Portfolio: https://blackman5566.github.io/project/
