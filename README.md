@@ -2,107 +2,155 @@
 
 我是一個做 App 的工程師。
 
-這幾年慢慢發現，  
-比起把功能做出來，我更在意的是：
+我做功能，也做系統。
 
-👉 系統到底穩不穩  
-👉 資料在流動的過程，有沒有亂掉  
+但隨著產品成長，我發現：
+真正讓專案卡住的，往往不是功能本身，而是：
 
-很多時候問題不是功能，而是系統本身開始撐不住。
+👉 **系統開始撐不住的問題**
 
-我現在主要在做的事情，就是：
+最近，我也在做另一件事：
 
-👉 把已經上線、有流量的 App，  
-👉 慢慢整理成一個團隊可以安心開發的系統。
+👉 **把 AI 放進既有流程，讓系統自己完成工作**
 
 ---
 
-## 🧠 我平常在處理的東西
+<p align="center">
 
-比較常遇到的，其實都是這種情境：
+![iOS](https://img.shields.io/badge/iOS-Swift-blue)
+![Flutter](https://img.shields.io/badge/Flutter-Dart-blue)
+![Architecture](https://img.shields.io/badge/System-Design-black)
+![Realtime](https://img.shields.io/badge/Realtime-Data-orange)
+![AI](https://img.shields.io/badge/AI-Workflow-green)
 
-- 資料更新很快，但 UI 跟不上（開始亂）
-- 功能越加越多，改一個地方就壞別的
-- 狀態分散在各個地方，很難 debug
-
-在一個 10萬+ DAU 的產品裡，我做的事情比較單純：
-
-把資料流整理好，讓狀態有地方放，  
-最後讓整個系統「穩下來」。
-
-（那次把 crash rate 壓到 0.1%，其實就是這樣來的）
+</p>
 
 ---
 
-## ⚙️ 最近在做的事
+## 🚀 我在做什麼 / 🧠 我解決什麼問題
 
-我最近在摸的東西，大概都圍繞在：
+<table>
+<tr>
+<td width="50%">
 
-- real-time 資料更新
-- 狀態管理（讓資料跟 UI 對得起來）
-- async flow（不要讓系統自己打架）
-- 跨框架設計（SwiftUI / UIKit / Flutter）
+### 🚀 我在做什麼
 
-有些會變成 side project，  
-有些只是把一個問題想清楚。
+- 讓高流量 App **穩定運作**
+- 把混亂專案整理成 **可持續開發的系統**
+- 建立 **可控的資料流與狀態管理**
+- 把 AI 整合進流程，減少人工作業
+
+👉 核心：
+
+**讓系統撐得住規模，也能自己運作**
+
+</td>
+<td width="50%">
+
+### 🧠 我解決的問題
+
+- 資料更新很快 → UI 跟不上（畫面亂）
+- 功能越多 → 改一個壞三個
+- 狀態分散 → bug 很難追
+- 重複流程太多 → 浪費時間
+
+👉 本質：
+
+**系統沒有被設計好（包含流程）**
+
+</td>
+</tr>
+</table>
 
 ---
 
-## ⭐ 幾個比較有代表性的東西
-
-如果你是第一次來，可以從這幾個看看：
+## ⭐ 代表作品（直接看這裡）
 
 ---
 
 ### 🔐 Security Center（系統設計）
 
-一開始只是覺得：  
-為什麼密碼 / Face ID / 鎖定這些東西都散在各個畫面？
-
-後來就把這些邏輯抽出來，做成一個統一的系統。
-
-→ UI 不用再處理一堆條件  
-→ 邏輯集中，後面比較好改  
-→ 同一套設計可以跑在 iOS / Flutter
-
 👉 https://github.com/blackman5566/security_center_system_design_flutte
+
+把「密碼 / Face ID / 鎖定」這些分散邏輯，整合成一個系統。
+
+- UI 不再處理複雜條件  
+- 邏輯集中，容易維護  
+- 可跨 iOS / Flutter 重用  
+
+👉 **Security 不是一個畫面，而是一個系統**
 
 ---
 
-### ⚡ Real-time System Design
-
-這個是處理「資料一直來，但畫面不能亂」的問題。
-
-→ 控制更新節奏  
-→ 讓 UI 跟資料保持一致  
-→ 避免畫面閃動或錯位  
-
-這種問題其實在聊天、賽事、交易都會遇到。
+### ⚡ Real-time System（高頻資料處理）
 
 👉 https://github.com/blackman5566/RealTimeMetricsDemo
 
+處理「資料一直進來，但畫面不能亂」的問題。
+
+- 控制更新節奏  
+- UI 與資料保持一致  
+- 避免畫面閃動 / 不同步  
+
 ---
 
-### 📱 Presentation Coordinator
-
-多層 modal 很容易亂掉（sheet、overlay、fullScreen）
-
-所以我把「怎麼開 / 怎麼關」這件事統一管理。
-
-→ View 不用再處理流程  
-→ 行為變得可預測  
-→ debug 也簡單很多  
+### 📱 Presentation Coordinator（UI flow 管理）
 
 👉 https://github.com/blackman5566/SwiftUI-Presentation-Coordinator
 
+統一管理 modal（sheet / overlay / fullScreen）
+
+- Flow 可控  
+- 行為一致  
+- Debug 容易  
+
 ---
 
-## 💡 我自己的一些想法
+### 🤖 Form Pilot（AI Workflow）
 
-- 系統如果一開始沒想清楚，後面一定會補  
-- UI 是表面，狀態才是核心  
-- 複雜的東西，通常只是沒有被好好拆開  
-- 好的系統，應該讓人比較輕鬆，而不是更累  
+👉 https://github.com/blackman5566/form-pilot
+
+找工作時發現：  
+每間公司表單不同，但內容幾乎一樣。
+
+所以我把這件事交給 AI。
+
+**做法：**
+- 建立一份 `profile.json`
+- 丟進 Word 表單
+- 自動填寫並輸出
+
+**這其實不只是填表工具，而是一個流程：**
+
+👉 把「重複輸入 → 結構化資料 → 自動產出」整合起來
+
+👉 本質：
+
+**把人工流程轉成 AI workflow**
+
+---
+
+## ⚙️ 技術關注
+
+- Real-time data flow
+- State management（Single Source of Truth）
+- Async flow control
+- 跨框架架構設計（SwiftUI / UIKit / Flutter）
+- AI workflow integration（把 AI 放進實際流程）
+
+👉 重點不是工具，而是：
+
+**系統與流程能不能一起穩定運作**
+
+---
+
+## 💡 我的思考方式
+
+- 問題通常不是複雜，而是沒有被拆對
+- UI 是結果，狀態才是核心
+- 架構設計對了，可以跨 framework 重用
+- 重複的流程，應該交給系統，而不是人
+- AI 的價值，不在生成，而在整合進流程
 
 ---
 
@@ -110,16 +158,12 @@
 
 我是兩個孩子的爸爸。
 
-寫程式之外，其實也就是在過生活。
-
-很多我做的東西，
-都是從「這件事好像可以更簡單」開始的。
+很多 side project，  
+都是從「這件事可不可以更簡單」開始的。
 
 ---
 
-## 📫 找到我
-
-如果你剛好也在做類似的東西，或只是想聊聊：
+## 📫 聯絡我
 
 - LinkedIn: https://www.linkedin.com/in/allen-hsu-54180970/
 - Portfolio: https://blackman5566.github.io/project/
