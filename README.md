@@ -1,17 +1,16 @@
-# 👋 嗨，我是 Allen
+# 嗨，我是 Allen
 
-我是一個做 App 的工程師。
+我是一名 App Engineer，主要專注在 iOS、跨平台 App、系統設計與 AI workflow。
 
-我做功能，也做系統。
+我做功能，也整理系統。
 
-但隨著產品成長，我發現：
-真正讓專案卡住的，往往不是功能本身，而是：
+對我來說，真正讓專案卡住的通常不是單一功能，而是：
 
-👉 **系統開始撐不住的問題**
+> 資料流不清楚、狀態分散、流程重複、責任邊界沒有被設計好。
 
-最近，我也在做另一件事：
+最近我也在做另一件事：
 
-👉 **把 AI 放進既有流程，讓系統自己完成工作**
+> 把 AI 放進既有工程流程，讓它成為可控、可驗證、可重複使用的開發加速器。
 
 ---
 
@@ -19,151 +18,166 @@
 
 ![iOS](https://img.shields.io/badge/iOS-Swift-blue)
 ![Flutter](https://img.shields.io/badge/Flutter-Dart-blue)
-![Architecture](https://img.shields.io/badge/System-Design-black)
+![System Design](https://img.shields.io/badge/System-Design-black)
 ![Realtime](https://img.shields.io/badge/Realtime-Data-orange)
-![AI](https://img.shields.io/badge/AI-Workflow-green)
+![AI Workflow](https://img.shields.io/badge/AI-Workflow-green)
 
 </p>
 
 ---
 
-## 🚀 我在做什麼 / 🧠 我解決什麼問題
+## 我關心的問題
 
-<table>
-<tr>
-<td width="50%">
+我喜歡處理那些一開始看起來只是「功能問題」，但其實背後是系統設計問題的東西。
 
-### 🚀 我在做什麼
+| 問題現象 | 我關心的本質 |
+| --- | --- |
+| 資料一直更新，畫面容易亂 | UI 與資料狀態沒有穩定同步 |
+| 功能越做越多，改一個壞三個 | 責任邊界與流程沒有被拆清楚 |
+| 狀態分散，bug 很難追 | 缺少單一可信資料來源 |
+| 表單、報表、文件流程重複 | 人工流程沒有被轉成系統流程 |
+| AI 可以寫程式，但結果不穩 | 缺少工程規則、驗證流程與上下文約束 |
 
-- 讓高流量 App **穩定運作**
-- 把混亂專案整理成 **可持續開發的系統**
-- 建立 **可控的資料流與狀態管理**
-- 把 AI 整合進流程，減少人工作業
+我的核心方向是：
 
-👉 核心：
-
-**讓系統撐得住規模，也能自己運作**
-
-</td>
-<td width="50%">
-
-### 🧠 我解決的問題
-
-- 資料更新很快 → UI 跟不上（畫面亂）
-- 功能越多 → 改一個壞三個
-- 狀態分散 → bug 很難追
-- 重複流程太多 → 浪費時間
-
-👉 本質：
-
-**系統沒有被設計好（包含流程）**
-
-</td>
-</tr>
-</table>
+> 讓系統撐得住規模，也讓流程可以被穩定重複。
 
 ---
 
-## ⭐ 代表作品（直接看這裡）
+## 代表作品
+
+### Security Center
+
+[security_center_system_design_flutte](https://github.com/blackman5566/security_center_system_design_flutte)
+
+把密碼、Face ID、鎖定狀態這些分散邏輯整合成一個安全中心系統。
+
+重點不是做一個畫面，而是把安全相關流程集中管理。
+
+- UI 不再處理複雜條件
+- 狀態與規則集中，容易維護
+- 可跨 iOS / Flutter 思路重用
 
 ---
 
-### 🔐 Security Center（系統設計）
+### Real-time Metrics Demo
 
-👉 https://github.com/blackman5566/security_center_system_design_flutte
+[RealTimeMetricsDemo](https://github.com/blackman5566/RealTimeMetricsDemo)
 
-把「密碼 / Face ID / 鎖定」這些分散邏輯，整合成一個系統。
+處理高頻資料進來時，UI 不能亂跳、不能閃爍、不能不同步的問題。
 
-- UI 不再處理複雜條件  
-- 邏輯集中，容易維護  
-- 可跨 iOS / Flutter 重用  
-
-👉 **Security 不是一個畫面，而是一個系統**
+- 控制更新節奏
+- 穩定 UI 與資料的一致性
+- 避免重複渲染造成畫面抖動
 
 ---
 
-### ⚡ Real-time System（高頻資料處理）
+### SwiftUI Presentation Coordinator
 
-👉 https://github.com/blackman5566/RealTimeMetricsDemo
+[SwiftUI-Presentation-Coordinator](https://github.com/blackman5566/SwiftUI-Presentation-Coordinator)
 
-處理「資料一直進來，但畫面不能亂」的問題。
+統一管理 SwiftUI 裡的 sheet、overlay、fullScreen 等呈現流程。
 
-- 控制更新節奏  
-- UI 與資料保持一致  
-- 避免畫面閃動 / 不同步  
-
----
-
-### 📱 Presentation Coordinator（UI flow 管理）
-
-👉 https://github.com/blackman5566/SwiftUI-Presentation-Coordinator
-
-統一管理 modal（sheet / overlay / fullScreen）
-
-- Flow 可控  
-- 行為一致  
-- Debug 容易  
+- Flow 可控
+- 行為一致
+- Debug 更容易
 
 ---
 
-### 🤖 Form Pilot（AI Workflow）
+### Form Pilot
 
-👉 https://github.com/blackman5566/form-pilot
+[form-pilot](https://github.com/blackman5566/form-pilot)
 
-找工作時發現：  
-每間公司表單不同，但內容幾乎一樣。
+把重複填寫文件的人工流程轉成 AI workflow。
 
-所以我把這件事交給 AI。
+流程概念：
 
-**做法：**
-- 建立一份 `profile.json`
-- 丟進 Word 表單
-- 自動填寫並輸出
+```text
+profile.json
+  -> Word form
+  -> AI-assisted filling
+  -> output document
+```
 
-**這其實不只是填表工具，而是一個流程：**
+這不只是填表工具，而是把：
 
-👉 把「重複輸入 → 結構化資料 → 自動產出」整合起來
+```text
+重複輸入
+  -> 結構化資料
+  -> 自動產出
+```
 
-👉 本質：
-
-**把人工流程轉成 AI workflow**
+整合成一個可重複的流程。
 
 ---
 
-## ⚙️ 技術關注
+## 我的工程方法
 
+我通常會先問：
+
+- 這真的是 UI 問題，還是狀態管理問題？
+- 這真的是功能問題，還是流程沒有被設計好？
+- 這段邏輯應該屬於畫面、狀態、資料流，還是系統規則？
+- AI 產出的東西有沒有被規則約束？
+- 這個結果能不能被驗證、重複使用、長期維護？
+
+我相信：
+
+- UI 是結果，狀態才是核心。
+- 功能可以很快做完，但系統要能長期維護。
+- 架構不是為了漂亮，而是為了讓變更可控。
+- AI 的價值不只在生成，而在整合進實際工作流程。
+
+---
+
+## 技術關注
+
+- iOS development with Swift / SwiftUI / UIKit
+- Flutter app architecture
 - Real-time data flow
-- State management（Single Source of Truth）
+- State management and single source of truth
 - Async flow control
-- 跨框架架構設計（SwiftUI / UIKit / Flutter）
-- AI workflow integration（把 AI 放進實際流程）
-
-👉 重點不是工具，而是：
-
-**系統與流程能不能一起穩定運作**
+- Cross-framework architecture design
+- AI-assisted development workflow
+- Prompt as engineering constraint
 
 ---
 
-## 💡 我的思考方式
+## 目前正在整理
 
-- 問題通常不是複雜，而是沒有被拆對
-- UI 是結果，狀態才是核心
-- 架構設計對了，可以跨 framework 重用
-- 重複的流程，應該交給系統，而不是人
-- AI 的價值，不在生成，而在整合進流程
+### Allen iOS Code Style
+
+我正在整理一份自己的 iOS code style playbook。
+
+Repo: [blackman5566/allen-ios-code-style](https://github.com/blackman5566/allen-ios-code-style)
+
+第一版先只聚焦一件事：
+
+> 讓 AI 在整理 Swift code 時，能產出更一致、可維護、符合 production review 的程式碼。
+
+目前重點包含：
+
+- 依照責任拆分 Swift extension
+- 保留既有行為，不把整理程式碼變成重寫功能
+- 使用繁體中文 intent comments 說明目的、流程與限制
+- 將 function body 拆成容易閱讀與 review 的階段
+- 避免為了看起來高級而過度抽象
+
+之後如果內容更完整，再慢慢整理成更大的 Allen Engineering Playbook。
 
 ---
 
-## 👨‍👧‍👦 一點生活
+## 一點生活
 
 我是兩個孩子的爸爸。
 
-很多 side project，  
-都是從「這件事可不可以更簡單」開始的。
+很多 side project 都是從一句話開始：
+
+> 這件事可不可以更簡單？
 
 ---
 
-## 📫 聯絡我
+## 聯絡我
 
 - LinkedIn: https://www.linkedin.com/in/allen-hsu-54180970/
 - Portfolio: https://blackman5566.github.io/project/
