@@ -145,17 +145,17 @@ profile.json
 
 ## 目前正在整理
 
-### Allen iOS Code Style
+### Allen iOS Code Style Skill
 
-我正在整理一份自己的 iOS code style playbook。
+我正在整理一個自己的 Codex skill，用來約束 AI 整理 iOS Swift code 的方式。
 
 Repo: [blackman5566/allen-ios-code-style](https://github.com/blackman5566/allen-ios-code-style)
 
 第一版先只聚焦一件事：
 
-> 讓 AI 在整理 Swift code 時，能產出更一致、可維護、符合 production review 的程式碼。
+> 讓 Codex / AI 在整理 Swift code 時，能產出更一致、可維護、符合 production review 的程式碼。
 
-目前重點包含：
+這個 skill 目前重點包含：
 
 - 依照責任拆分 Swift extension
 - 保留既有行為，不把整理程式碼變成重寫功能
@@ -163,7 +163,7 @@ Repo: [blackman5566/allen-ios-code-style](https://github.com/blackman5566/allen-
 - 將 function body 拆成容易閱讀與 review 的階段
 - 避免為了看起來高級而過度抽象
 
-之後如果內容更完整，再慢慢整理成更大的 Allen Engineering Playbook。
+之後如果累積更多公開 skill，再慢慢整理成更大的 Allen Engineering Playbook。
 
 ---
 
